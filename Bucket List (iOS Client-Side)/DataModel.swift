@@ -10,7 +10,7 @@ import Foundation
 
 struct TaskResult: Codable {
     let id: Int
-    let objective, createdAt: String
+    var objective, createdAt: String
     
     
     enum CodingKeys: String, CodingKey {
@@ -21,3 +21,4 @@ struct TaskResult: Codable {
             }
     
 }
+

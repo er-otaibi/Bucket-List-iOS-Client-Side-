@@ -16,6 +16,8 @@
 		042A3B7F27720AB300823F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042A3B7D27720AB300823F07 /* LaunchScreen.storyboard */; };
 		042A3B8727720AD900823F07 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A3B8627720AD900823F07 /* TaskModel.swift */; };
 		042A3B8927720BC700823F07 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A3B8827720BC700823F07 /* DataModel.swift */; };
+		04D9053F2772FEE500EF39C5 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9053E2772FEE500EF39C5 /* TaskDelegate.swift */; };
+		04E46DE127724D3C00412336 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E46DE027724D3C00412336 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		042A3B8027720AB300823F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042A3B8627720AD900823F07 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		042A3B8827720BC700823F07 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		04D9053E2772FEE500EF39C5 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		04E46DE027724D3C00412336 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		042A3B6327720AAF00823F07 = {
 			isa = PBXGroup;
 			children = (
+				04D9053E2772FEE500EF39C5 /* TaskDelegate.swift */,
+				04E46DE027724D3C00412336 /* AddTaskViewController.swift */,
 				042A3B6E27720AAF00823F07 /* Bucket List (iOS Client-Side) */,
 				042A3B6D27720AAF00823F07 /* Products */,
 			);
@@ -149,9 +155,11 @@
 				042A3B7427720AAF00823F07 /* TaskViewController.swift in Sources */,
 				042A3B7A27720AAF00823F07 /* Bucket_List__iOS_Client_Side_.xcdatamodeld in Sources */,
 				042A3B8727720AD900823F07 /* TaskModel.swift in Sources */,
+				04D9053F2772FEE500EF39C5 /* TaskDelegate.swift in Sources */,
 				042A3B7027720AAF00823F07 /* AppDelegate.swift in Sources */,
 				042A3B7227720AAF00823F07 /* SceneDelegate.swift in Sources */,
 				042A3B8927720BC700823F07 /* DataModel.swift in Sources */,
+				04E46DE127724D3C00412336 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
